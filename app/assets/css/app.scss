@@ -1,3 +1,27 @@
-/**
- * Import SASS files here...
- */
+@charset 'UTF-8';
+
+// 1. Config...
+@import
+  'config';
+
+// 2. Mixins & functions...
+@import
+  'mixins/clearfix',
+  'mixins/flexbox',
+  'mixins/placeholder_color';
+
+// 3. Vendor styles...
+@import
+  'vendors/reset',
+  'vendors/normalize';
+
+// 4. Layout...
+@import
+  'layout/base',
+  'layout/typography',
+  'layout/extends',
+  'layout/grid';
+
+// 5. Modules/components...
+
+// 6. Page specific styles...

@@ -1,0 +1,17 @@
+/**
+ * Application variables go here...
+ */
+
+$media-breakpoints: (
+  xs: 0,
+  sm: 640px,
+  md: 768px,
+  lg: 990px,
+  xl: 1200px
+) !default;
+
+// Grid system
+// Defaults taken from layout/_grid.scss
+
+// $grid-columns: 12;
+// $grid-gutter-width: 32px;

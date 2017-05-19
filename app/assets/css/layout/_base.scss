@@ -1,0 +1,22 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-overflow-scrolling: touch;
+}
+
+input, textarea, select {
+  outline-style: none;
+  outline-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+abbr, acronym {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
